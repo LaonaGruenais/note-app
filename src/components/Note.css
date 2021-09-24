@@ -1,0 +1,25 @@
+.title{
+    background-color: aqua;
+    font-family:'Times New Roman', Times, serif;
+    border: 1px solid rgb(214, 185, 119);
+    word-break: break-all;
+    padding: 12px;
+    width: 20vmax;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.content{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4em;
+    line-height: 1.5;
+    border: 1px solid rgb(214, 185, 119);
+    word-break: break-all;
+    padding: 12px;
+    width: 20vmax;
+    box-shadow: 5px 5px 5px grey;
+    
+}
+
+.body{
+    display: flex;
+}
