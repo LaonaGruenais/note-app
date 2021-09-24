@@ -7,7 +7,7 @@ class NoteModal extends React.Component {
     return (
         <Modal
         isOpen={this.props.isModalOpen}>
-            <NoteForm />
+            <NoteForm {... this.props} />
             <button onClick={() => this.props.closeModal()}>FERMER MODAL</button>
             </Modal>
     )   

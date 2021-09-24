@@ -2,11 +2,14 @@ import React from 'react';
 import './FAB.css';
 
 class FAB extends React.Component {
-
+  handleClick = () => {
+    this.props.setNoteToEdit(null)
+    this.props.openModal()
+  }
 
   render() {
     return (
-        <div onClick={() => this.props.openModal()} className='fab-container'>
+        <div onClick={this.handleClick} className='fab-container'>
             +
         </div>
     )
